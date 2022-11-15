@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="runner.SearchPageTest">
+      <class name="runner.PageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="driverinit"/>
-          <include name="setup"/>
-          <include name="teardowntest"/>
+          <include name="launchPage"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- runner.SearchPageTest -->
+      </class> <!-- runner.PageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

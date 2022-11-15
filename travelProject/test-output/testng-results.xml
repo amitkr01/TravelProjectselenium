@@ -2,56 +2,22 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-11T14:54:32 GMT+05:30" name="Default suite" finished-at="2022-11-11T14:55:02 GMT+05:30" duration-ms="29826">
+  <suite started-at="2022-11-15T00:10:50 GMT+05:30" name="Suite" finished-at="2022-11-15T00:11:04 GMT+05:30" duration-ms="14295">
     <groups>
     </groups>
-    <test started-at="2022-11-11T14:54:32 GMT+05:30" name="Default test" finished-at="2022-11-11T14:55:02 GMT+05:30" duration-ms="29826">
-      <class name="runner.SearchPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:runner.SearchPageTest@66f57048]" started-at="2022-11-11T14:54:32 GMT+05:30" name="setup" finished-at="2022-11-11T14:54:32 GMT+05:30" duration-ms="228" status="PASS">
+    <test started-at="2022-11-15T00:10:50 GMT+05:30" name="Test" finished-at="2022-11-15T00:11:04 GMT+05:30" duration-ms="14295">
+      <class name="runner.PageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:runner.PageTest@2c1b194a]" started-at="2022-11-15T00:10:46 GMT+05:30" name="launchBrowser" finished-at="2022-11-15T00:10:50 GMT+05:30" duration-ms="3262" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="driverinit()[pri:0, instance:runner.SearchPageTest@66f57048]" started-at="2022-11-11T14:54:32 GMT+05:30" name="driverinit" finished-at="2022-11-11T14:54:59 GMT+05:30" duration-ms="27372" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="close-icon"]/img"}
-  (Session info: chrome=107.0.5304.88)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.6.0', revision: '79f1c02ae20'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f4770e0016883d8bf1abc392b37af77, findElement {using=xpath, value=//*[@id="close-icon"]/img}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MINDTR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59990/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f4770e0016883d8bf1abc392b37af77]]>
-            </message>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchPage()[pri:0, instance:runner.PageTest@2c1b194a]" started-at="2022-11-15T00:10:50 GMT+05:30" name="launchPage" finished-at="2022-11-15T00:11:04 GMT+05:30" duration-ms="14110" status="FAIL">
+          <exception class="java.util.NoSuchElementException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="close-icon"]/img"}
-  (Session info: chrome=107.0.5304.88)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.6.0', revision: '79f1c02ae20'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8f4770e0016883d8bf1abc392b37af77, findElement {using=xpath, value=//*[@id="close-icon"]/img}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MINDTR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59990/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8f4770e0016883d8bf1abc392b37af77
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at pageObject.SearchPage.skiad(SearchPage.java:49)
-at runner.SearchPageTest.driverinit(SearchPageTest.java:70)
+              <![CDATA[java.util.NoSuchElementException
+at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)
+at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:778)
+at runner.PageTest.launchPage(PageTest.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,19 +48,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.util.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driverinit -->
-        <test-method is-config="true" signature="teardowntest()[pri:0, instance:runner.SearchPageTest@66f57048]" started-at="2022-11-11T14:54:59 GMT+05:30" name="teardowntest" finished-at="2022-11-11T14:55:02 GMT+05:30" duration-ms="2414" status="PASS">
+        </test-method> <!-- launchPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:runner.PageTest@2c1b194a]" started-at="2022-11-15T00:11:04 GMT+05:30" name="closeBrowser" finished-at="2022-11-15T00:11:04 GMT+05:30" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardowntest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.SearchPageTest@66f57048]" started-at="2022-11-11T14:55:02 GMT+05:30" name="tearDown" finished-at="2022-11-11T14:55:02 GMT+05:30" duration-ms="325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- runner.SearchPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- runner.PageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

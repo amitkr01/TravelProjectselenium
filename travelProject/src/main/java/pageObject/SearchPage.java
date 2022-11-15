@@ -1,5 +1,7 @@
 package pageObject;
 
+import java.util.Set;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,7 +18,9 @@ public class SearchPage {
 	By flightsearch = By.xpath("//*[@id=\"main-container\"]/div/div[1]/div[3]/div[2]/div[7]/div[2]/div");
 	
 	By conti = By.xpath("//*[@id=\"replacedbutton\"]");
-	By skipad = By.xpath("//*[@id=\"close-icon\"]/img");
+	By skipad = By.xpath("//*[@id='continue']");
+	
+	
 	
 	
 	public SearchPage(WebDriver driver) {
@@ -47,8 +51,17 @@ public class SearchPage {
 	
 	public void skiad() {
 		WebElement element = driver.findElement(skipad);
+		
 		Actions action = new Actions(driver);
-		action.moveToElement(element).build().perform();
+		
+		action.moveToElement(element).click().perform();
+		
+		
+		
+		//driver.findElement(skipad).click();
+		
+			
+		
 	}
 	
 }

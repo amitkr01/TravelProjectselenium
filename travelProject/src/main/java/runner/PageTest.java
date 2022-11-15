@@ -1,5 +1,8 @@
 package runner;
 
+import java.util.Iterator;
+import java.util.Set;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -23,6 +26,8 @@ public class PageTest extends BaseTest {
 		
 		driver.get(prop.getProperty("url"));
 		
+		 
+		
 		SearchPage page = new SearchPage(driver);
 		test.info("check ticktek booking");
 		test.pass("select origin place");
@@ -37,8 +42,17 @@ public class PageTest extends BaseTest {
 		test.pass("continue for detail");
 		page.selcontinue();
 		
+		Set<String> windowhandles= driver.getWindowHandles();
+		 Iterator<String> iterator = windowhandles.iterator();
+		 String parentWindow = iterator.next();
+		 String childWindow = iterator.next();
+		
+		driver.switchTo().window(childWindow);
 		page.skiad();
-		page.selcontinue();
+		
+		
+		
+	//	page.selcontinue();
 		
 		
 	}
