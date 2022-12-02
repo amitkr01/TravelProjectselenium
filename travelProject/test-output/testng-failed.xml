@@ -5,10 +5,12 @@
     <listener class-name="resource.Listeners"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
     <classes>
       <class name="runner.PageTest">
         <methods>
           <include name="launchPage"/>
+          <include name="setup"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
         </methods>

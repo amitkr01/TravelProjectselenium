@@ -6,6 +6,7 @@
       <class name="runner.PageTest">
         <methods>
           <include name="launchPage"/>
+          <include name="setup"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
         </methods>

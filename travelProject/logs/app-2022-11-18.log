@@ -1,0 +1,28 @@
+[INFO ] 2022-11-18 12:04:29.056 [main] PageTest - launch driver
+[INFO ] 2022-11-18 12:04:33.895 [main] PageTest - select origin place
+[INFO ] 2022-11-18 12:04:34.402 [main] PageTest - select destination
+[INFO ] 2022-11-18 12:04:35.795 [main] PageTest - search for available flight
+[INFO ] 2022-11-18 14:28:27.504 [main] PageTest - launch driver
+[INFO ] 2022-11-18 14:28:32.824 [main] PageTest - select origin place
+[INFO ] 2022-11-18 14:28:33.360 [main] PageTest - select destination
+[INFO ] 2022-11-18 14:28:34.800 [main] PageTest - search for available flight
+[INFO ] 2022-11-18 14:50:48.355 [main] PageTest - launch driver
+[INFO ] 2022-11-18 14:50:54.119 [main] PageTest - select origin place
+[INFO ] 2022-11-18 14:50:54.272 [main] PageTest - select destination
+[INFO ] 2022-11-18 14:50:56.256 [main] PageTest - search for available flight
+[INFO ] 2022-11-18 14:51:38.794 [main] PageTest - launch driver
+[INFO ] 2022-11-18 14:51:43.791 [main] PageTest - select origin place
+[INFO ] 2022-11-18 14:51:44.253 [main] PageTest - select destination
+[INFO ] 2022-11-18 14:51:46.168 [main] PageTest - search for available flight
+[INFO ] 2022-11-18 14:52:15.752 [main] PageTest - launch driver
+[INFO ] 2022-11-18 14:52:21.076 [main] PageTest - select origin place
+[INFO ] 2022-11-18 14:52:21.550 [main] PageTest - select destination
+[INFO ] 2022-11-18 14:52:23.016 [main] PageTest - search for available flight
+[INFO ] 2022-11-18 14:53:46.298 [main] PageTest - launch driver
+[INFO ] 2022-11-18 14:53:52.070 [main] PageTest - select origin place
+[INFO ] 2022-11-18 14:53:52.594 [main] PageTest - select destination
+[INFO ] 2022-11-18 14:53:54.094 [main] PageTest - search for available flight
+[INFO ] 2022-11-18 14:55:12.124 [main] PageTest - launch driver
+[INFO ] 2022-11-18 14:55:16.969 [main] PageTest - select origin place
+[INFO ] 2022-11-18 14:55:17.095 [main] PageTest - select destination
+[INFO ] 2022-11-18 14:55:18.803 [main] PageTest - search for available flight

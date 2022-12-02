@@ -1,0 +1,4 @@
+[INFO ] 2022-11-30 14:57:19.842 [main] PageTest - launch driver
+[INFO ] 2022-11-30 14:57:29.240 [main] PageTest - select origin place
+[INFO ] 2022-11-30 14:57:30.581 [main] PageTest - select destination
+[INFO ] 2022-11-30 14:57:31.991 [main] PageTest - search for available flight
